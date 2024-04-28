@@ -3,7 +3,7 @@ from guitar import Guitar
 
 def test_guitar():
     first_guitar = Guitar("Gibson L-5 CES", 1922, 16035.40)
-    second_guitar = Guitar("Another Guitar", 2013, 8888.00)
+    second_guitar = Guitar("Another Guitar", 2013, 8888.88)
 
     print("Gibson L-5 CES get_age() - Expected 100. Got", first_guitar.get_age())
     print("Another Guitar get_age() - Expected 9. Got", second_guitar.get_age())

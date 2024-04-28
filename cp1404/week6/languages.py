@@ -10,7 +10,10 @@ def main():
     print(ruby)
     print(visual_basic)
 
+    # Create a list of programming languages
     languages = [python, ruby, visual_basic]
+
+    # Print dynamically typed languages
     print("\nThe dynamically typed languages are:")
     for language in languages:
         if language.is_dynamic():
